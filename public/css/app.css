@@ -1,0 +1,33 @@
+.myClass{
+    text-align: center;
+}
+.myDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.carre{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}
+.d-flex{
+    display: flex;
+    gap: 10px;
+}
+
+/* Phone Size */
+@media (min-width: 375px) and (max-width: 425px) {
+    .myDiv{
+        display: block;
+    }
+    .myClass{
+        text-align: end;
+        background-color: red;
+    }
+}
+/* Tablette */
+@media (min-width : 426px) and (max-width : 768px) {
+    
+}
+
+/* Laptop */
